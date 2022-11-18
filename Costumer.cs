@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tela_infor
 {
-    //class
+    //###### CLASS COSTUMER ######
     public class Costumer
     {
-        //atributes
+        //###### ATRIBUTES DECLARATION ######
         private int id;
         private string name;
         private string lastname;
@@ -19,7 +19,7 @@ namespace Tela_infor
         private string confemail;
         private string passwd;
         private string confpasswd;
-        private DateTime born;
+        private string born;
 
         public Costumer()
         {
@@ -32,9 +32,10 @@ namespace Tela_infor
             this.confemail = "";
             this.passwd = "";
             this.confpasswd = "";
-            this.born = DateTime.Now;
+            this.born = "";
         }
 
+        //###### CONSTRUCTOR DECLARATION ######
         public Costumer(int p_id,
                         string p_name,
                         string p_lastname,
@@ -44,7 +45,7 @@ namespace Tela_infor
                         string p_confemail,
                         string p_passwd,
                         string p_confpasswd,
-                        DateTime p_born)
+                        string p_born)
         {
             this.id = p_id;
             this.name = p_name;
@@ -59,35 +60,44 @@ namespace Tela_infor
         }
 
 
-        //get~set identity
+        //###### GET~SET IDENTITY ######
         public int getId() { return this.id; }
         public void setId(int p_id) { this.id = p_id; }
-        //get~set name
+
+        //###### GET~SET NAME ######
         public string getName() { return this.name; }
         public void setName(string p_name) { this.name = p_name; }
-        //get~set lastname
+
+        //###### GET~SET LAST NAME ######
         public string getLastn() { return this.lastname; }
         public void setLastn(string p_lastname) { this.lastname = p_lastname; }
-        //get~set cpf
+
+        //###### GET~SET CPF ######
         public string getCpf() { return this.cpf; }
         public void setCpf(string p_cpf) { this.cpf = p_cpf; }
-        //get~set cellphone
+        
+        //###### GET~SET CELL PHONE ######
         public string getCell() { return this.cell; }
         public void setCell(string p_cell) { this.cell = p_cell; }
-        //get~set email
+        
+        //###### GET~SET EMAIL ######
         public string getEmail() { return this.email; }
         public void setEmail(string p_email) { this.email = p_email; }
-        //get~set email confirmation
+        
+        //###### GET~SET EMAIL CONFIRMATION ######
         public string getConfemail() { return this.confemail; }
         public void setConfemail(string p_confemail) { this.confemail = p_confemail; }
-        //get~set password
+        
+        //###### GET~SET PASSWORD ######
         public string getPasswd() { return this.passwd; }
         public void setPasswd(string p_passwd) { this.passwd = p_passwd; }
-        //get~set password confirmation
+        
+        //###### GET~SET PASSWORD CONFIRMATION ######
         public string getConfpasswd() { return this.confpasswd; }
         public void setConfpasswd(string p_confpasswd) { this.confpasswd = p_confpasswd; }
-        //get~set birth date
-        public DateTime getBorn() { return this.born; }
-        public void setBorn(DateTime p_born) { this.born = p_born; }
+        
+        //###### GET~SET BIRTH DATE ######
+        public string getBorn() { return this.born; }
+        public void setBorn(string p_born) { this.born = p_born; }
     }
 }

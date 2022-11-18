@@ -1,0 +1,17 @@
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\Tela_infor.exe.config
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\Tela_infor.exe
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\Tela_infor.pdb
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\MySql.Data.dll
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\System.Memory.dll
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\alunocmc\Desktop\MyHonda-master\bin\Debug\System.Buffers.dll
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.csproj.AssemblyReference.cache
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.Send.resources
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.Sprite.resources
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.Properties.Resources.resources
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.Consult.resources
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.csproj.GenerateResource.cache
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.csproj.CoreCompileInputs.cache
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.csproj.CopyComplete
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.exe
+C:\Users\alunocmc\Desktop\MyHonda-master\obj\Debug\Tela_infor.pdb

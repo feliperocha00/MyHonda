@@ -15,38 +15,22 @@ namespace Tela_infor
 {
     public partial class Consult : Form
     {
-        int n_reg = 0;
-
-        Costumer envi = new Costumer();
         public Consult()
         {
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //###### DATAGRID CONSULT ACTION ######
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
+            //###### SELECT FROM DATABASE ######
             MySqlConnection conexao = new MySqlConnection("server=localhost; UserId=root; database=honda; password=''");
             MySqlCommand sqlQuery = new MySqlCommand("SELECT * FROM costumer", conexao);
 
 
             dataGridView1.Rows.Clear();
 
-            string mensagem = "Id: " + envi.getId()
-               + "Name: " + envi.getName()
-               + "Last Name: " + envi.getLastn()
-               + "CPF: " + envi.getCpf()
-               + "Cell Phone: " + envi.getCell()
-               + "Email: " + envi.getEmail()
-               + "Password: " + envi.getPasswd()
-               + "Birth Date: " + envi.getBorn();
-
-
+            int n_reg = 0;
 
             try
             {
@@ -67,9 +51,9 @@ namespace Tela_infor
 
                     for (int i = 0; i < dataReader.FieldCount; i++)
                     {
-                        registro[i] = dataReader.GetValue(i); //Register Mount                        
+                        registro[i] = dataReader.GetValue(i); //# REGISTER MOUNT #                      
                     }
-                    dataGridView1.Rows.Add(registro); //Add Line
+                    dataGridView1.Rows.Add(registro); //# ADD LINE #
 
                     n_reg++;
 
@@ -86,10 +70,22 @@ namespace Tela_infor
             }
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
+
     }
 }
 

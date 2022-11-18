@@ -21,23 +21,16 @@ namespace Tela_infor
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        //###### SEND PAGE SHOW ######
         private void button1_Click(object sender, EventArgs e)
         {
             envi.ShowDialog();
-            
         }
 
+        //###### CONSULT PAGE SHOW ######
         private void button2_Click(object sender, EventArgs e)
         {
-
             con.ShowDialog();
-         
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
